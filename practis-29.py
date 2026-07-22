@@ -1,5 +1,5 @@
 def print_special_square():
-    n = int(input("Enter the number: "))
+    n = int(input())
     for i in range(n):
         for j in range(n):
             if (

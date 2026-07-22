@@ -1,6 +1,6 @@
 def Score():
-    in_score = int(input("Enter the score: "))
-    day = int(input("Enter the day: "))
+    in_score = int(input())
+    day = int(input())
     if day == 7:
         return in_score
     elif day == 0:

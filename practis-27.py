@@ -1,5 +1,5 @@
 def Prime_factorization():
-    n = int(input("Enter the number: "))
+    n = int(input())
     list_numbers = []
     list_pow = []
     for i in range(2, n + 1):

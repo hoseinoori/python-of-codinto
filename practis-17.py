@@ -2,8 +2,8 @@ import math
 
 
 def GCD():
-    n = int(input("enter the number 1: "))
-    m = int(input("enter the number 2: "))
+    n = int(input())
+    m = int(input())
     return math.gcd(m, n)
 
 

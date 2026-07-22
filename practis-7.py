@@ -1,5 +1,5 @@
 def Symmetric_number():
-    number = str(input("Enter the number: "))
+    number = str(input())
     list_of_number = list(number)
     n = len(list_of_number)
     m = int(n / 2)

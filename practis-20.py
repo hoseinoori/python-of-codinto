@@ -2,7 +2,7 @@ import math
 
 
 def find_pythagorean_triple():
-    n = int(input("Enter the number: "))
+    n = int(input())
     for a in range(1, n // 3 + 1):
         numerator = math.pow(n, 2) - 2 * n * a
         denominator = 2 * n - 2 * a

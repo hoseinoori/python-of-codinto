@@ -2,7 +2,7 @@ import math
 
 
 def Least_significant_nonzero_digit():
-    n = int(input("Enter the number: "))
+    n = int(input())
     n_factorial = math.factorial(n)
     while n_factorial % 10 == 0:
         n_factorial = int(n_factorial / 10)

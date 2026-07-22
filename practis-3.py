@@ -5,7 +5,7 @@ def number_of_pieces():
     E = 2
     H = 2
     S = 8
-    k, m, r, e, h, s = map(int, input("Enter the number: ").split())
+    k, m, r, e, h, s = map(int, input().split())
     print(K - k, M - m, R - r, E - e, H - h, S - s)
     return
 

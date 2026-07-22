@@ -13,11 +13,11 @@ def Count_Perfect_Square(l, r):
 
 
 def Perfect_Square():
-    q = int(input("Enter the numder: "))
+    q = int(input())
     lis_in = []
     lis_out = []
     for i in range(q):
-        lis_in.append(str(input(f"Enter the renge {i + 1}: ")))
+        lis_in.append(str(input()))
         l, r = map(int, str(lis_in[i]).split())
         lis_out.append(Count_Perfect_Square(l, r))
     for i in range(len(lis_out)):

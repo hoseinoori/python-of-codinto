@@ -1,5 +1,5 @@
 def Ice_cube_tray():
-    a, b, c, d, e, f = map(int, input("Enter the numbers: ").split())
+    a, b, c, d, e, f = map(int, input().split())
     lis_ice = [d, e, f]
     lis_bax = [a, b]
     lis_ice.remove(max(lis_ice))

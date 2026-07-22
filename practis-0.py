@@ -1,5 +1,5 @@
 def time_of_arar():
-    a, b, l = map(int, input("Enter the numbers: ").split())
+    a, b, l = map(int, input().split())
     t = int(l / 2)
     if l % 2 == 0:
         tim = t * a + t * b

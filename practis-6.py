@@ -1,5 +1,5 @@
 def Health_Guide():
-    string = str(input("Enter the string: "))
+    string = str(input())
     R = string.count("R")
     Y = string.count("Y")
     G = string.count("G")

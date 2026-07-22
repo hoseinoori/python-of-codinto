@@ -2,8 +2,11 @@ import math
 
 
 def Calculation():
-    x = int(input("Enter the X: "))
-    n = int(input("Enter the N: "))
+    x = int(input())
+    n = int(input())
+    if n == 0 or x == 0:
+        print(1.000)
+        return
     s = 0
     for i in range(n):
         s += float((math.pow(x, i)) / math.factorial(i))

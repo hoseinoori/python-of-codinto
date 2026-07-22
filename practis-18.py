@@ -10,7 +10,7 @@ def gcd_ladder_recursive(a, b, d=2):
     return gcd_ladder_recursive(a, b, d + 1)
 
 
-num1 = abs(int(input("Enter the number 1: ")))
-num2 = abs(int(input("Enter the number 2: ")))
+num1 = abs(int(input()))
+num2 = abs(int(input()))
 
 print(gcd_ladder_recursive(num1, num2))

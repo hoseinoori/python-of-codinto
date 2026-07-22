@@ -1,6 +1,6 @@
 def max_number():
-    n = int(input("Enter the number: "))
-    numbers = [int(n) for n in input("Enter the numbers: ").split()]
+    n = int(input())
+    numbers = [int(n) for n in input().split()]
     return max(numbers)
 
 

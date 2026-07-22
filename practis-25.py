@@ -1,5 +1,5 @@
 def Profit_calculation():
-    m, d, c, b, a = map(int, input("Enter the numbers: ").split())
+    m, d, c, b, a = map(int, input().split())
     a_m = m * c + a
     b_m = m * d + b
     max_m = max(b_m, a_m)

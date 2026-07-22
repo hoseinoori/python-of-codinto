@@ -17,7 +17,7 @@ def is_prime(number):
 
 
 def Prime_number():
-    n = str(input("Enter the number: "))
+    n = str(input())
     s = Sum_of_digits(n)
     number = int(n) + 1
     count = 0

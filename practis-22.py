@@ -12,9 +12,9 @@ def Literal_translation(lin1, lin2):
 
 
 def Translation():
-    lin1_in = str(input("Enter the string 1: "))
-    lin2_in = str(input("Enter the string 2: "))
-    lin3_in = str(input("Enter the string 3: "))
+    lin1_in = str(input())
+    lin2_in = str(input())
+    lin3_in = str(input())
     li_1 = [lin1_in[i : i + 5] for i in range(0, len(lin1_in), 5)]
     li_2 = [lin2_in[i : i + 5] for i in range(0, len(lin2_in), 5)]
     # li_3 = [lin3_in[i : i + 5] for i in range(0, len(lin3_in), 5)]

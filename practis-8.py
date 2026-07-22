@@ -1,5 +1,5 @@
 def Atalmatal_game():
-    n, m = map(int, input("Enter the number: ").split())
+    n, m = map(int, input().split())
     count = 1
     t = 1
     while True:

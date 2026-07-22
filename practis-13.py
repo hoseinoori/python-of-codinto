@@ -1,6 +1,6 @@
 def Check_size():
-    n, m = map(int, input("Enter size of tshert: ").split())
-    x, y = map(int, input("Enter size of winner: ").split())
+    n, m = map(int, input().split())
+    x, y = map(int, input().split())
     if n >= x and m >= y:
         return "yes"
     else:
